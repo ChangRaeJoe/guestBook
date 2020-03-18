@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+        .login-container{
+        }
+        .board-container{
+            position: relative;
+            right: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="login-container">
+            <form action="">
+                <label for="loginid">Id</label>
+                <input type="text" name="loginid" id="loginid">
+                <label for="pwd">Password</label>
+                <input type="password" name="pwd" id="pwd">
+                <p>
+                    회원이 아닙니까? <a href="http://">SignUp</a>
+                </p>
+                <button>로그인</button>
+            </form>
+            <button>구글로 로그인</button>
+            <button>github 로그인</button>
+        </div>
+
+        <div  class="board-container">
+            보드 컨테이너
+        </div>
+
+    </div>
+   
+    
+    
+  </body>
+</html>
